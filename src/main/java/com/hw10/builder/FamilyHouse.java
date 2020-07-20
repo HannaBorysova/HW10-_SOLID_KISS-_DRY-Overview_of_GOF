@@ -33,6 +33,6 @@ public class FamilyHouse extends HouseBuilder {
 
     @Override
     public void buuldPrice() {
-        house.setPrice("120 000.00 y.e.");
+        house.setPrice("120 000.00 usd");
     }
 }
