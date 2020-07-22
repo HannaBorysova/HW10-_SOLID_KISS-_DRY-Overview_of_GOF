@@ -13,11 +13,11 @@ public class Realtor {
 
     public void setShowHouse() {
         houseBuilder.showNewHouse();
-        houseBuilder.buuldType();
-        houseBuilder.buuldLocation();
-        houseBuilder.buuldEquipment();
-        houseBuilder.buuldRawMaterials();
-        houseBuilder.buuldAddParameters();
-        houseBuilder.buuldPrice();
+        houseBuilder.buildType();
+        houseBuilder.buildLocation();
+        houseBuilder.buildEquipment();
+        houseBuilder.buildRawMaterials();
+        houseBuilder.buildAddParameters();
+        houseBuilder.buildPrice();
     }
 }

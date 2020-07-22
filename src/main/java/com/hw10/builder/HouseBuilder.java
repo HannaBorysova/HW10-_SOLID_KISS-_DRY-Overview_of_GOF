@@ -11,10 +11,15 @@ public abstract class HouseBuilder {
         house = new House();
     }
 
-    public abstract void buuldType();
-    public abstract void buuldLocation();
-    public abstract void buuldEquipment();
-    public abstract void buuldRawMaterials();
-    public abstract void buuldAddParameters();
-    public abstract void buuldPrice();
+    public abstract void buildType();
+
+    public abstract void buildLocation();
+
+    public abstract void buildEquipment();
+
+    public abstract void buildRawMaterials();
+
+    public abstract void buildAddParameters();
+
+    public abstract void buildPrice();
 }

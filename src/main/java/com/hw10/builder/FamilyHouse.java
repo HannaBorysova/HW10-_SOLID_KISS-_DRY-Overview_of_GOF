@@ -6,33 +6,33 @@ import main.java.com.hw10.builder.enums.Type;
 
 public class FamilyHouse extends HouseBuilder {
     @Override
-    public void buuldType() {
+    public void buildType() {
         house.setType(Type.ECONOMY_CLASS);
     }
 
     @Override
-    public void buuldLocation() {
+    public void buildLocation() {
         house.setLocation(Location.NEAR_THE_METRO);
     }
 
     @Override
-    public void buuldEquipment() {
+    public void buildEquipment() {
         house.setEquipment(Equipment.WITHOUT_EQUIPMENT);
     }
 
     @Override
-    public void buuldRawMaterials() {
+    public void buildRawMaterials() {
         house.setRawMaterials("Frame house");
     }
 
     @Override
-    public void buuldAddParameters() {
+    public void buildAddParameters() {
         house.setAddParameters("Good infrastructure, near a school, " +
                 "kindergarten, shopping malls, supermarket, cinema");
     }
 
     @Override
-    public void buuldPrice() {
+    public void buildPrice() {
         house.setPrice("120 000.00 usd");
     }
 }

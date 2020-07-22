@@ -7,32 +7,32 @@ import main.java.com.hw10.builder.enums.Type;
 public class ParadiseHouse extends HouseBuilder {
 
     @Override
-    public void buuldType() {
+    public void buildType() {
         house.setType(Type.LUXE);
     }
 
     @Override
-    public void buuldLocation() {
+    public void buildLocation() {
         house.setLocation(Location.SUBURB);
     }
 
     @Override
-    public void buuldEquipment() {
+    public void buildEquipment() {
         house.setEquipment(Equipment.FULL_EQUIPMENT);
     }
 
     @Override
-    public void buuldRawMaterials() {
+    public void buildRawMaterials() {
         house.setRawMaterials("Сeramic blocks");
     }
 
     @Override
-    public void buuldAddParameters() {
+    public void buildAddParameters() {
         house.setAddParameters("Firts sea line");
     }
 
     @Override
-    public void buuldPrice() {
+    public void buildPrice() {
         house.setPrice("350 000,00 usd");
     }
 }
